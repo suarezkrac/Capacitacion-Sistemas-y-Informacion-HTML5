@@ -1,0 +1,45 @@
+body{
+	text-align: center
+}
+nav li{
+	list-style: none;
+	margin-left: 20px;
+	border: 1px solid black;
+	padding: 5px 20px;
+}
+ul{
+	overflow: hidden;
+}
+.navbar-collapse{
+	padding: 0;
+	width: 430px;
+	left: 0;
+	right: 0;
+	margin-right: auto;
+	margin-left: auto;
+}
+.navbar-nav{
+	padding: 0;
+	margin: 0px auto;
+}
+.caja{
+	background: gray;
+	min-height: 300px;
+}
+
+.caja-interna{
+	background: #f1f1f1;
+	min-height: 200px;
+
+}
+#bloque1{
+	background: #ccc;
+}
+#bloque2{
+	background: #000;
+	color: white;
+}
+
+
+
+

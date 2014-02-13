@@ -1,0 +1,171 @@
+body{
+	background: #ccc;
+	text-align: center;
+}
+header{
+	width: 100%;
+	background: white;
+}
+header ul{
+	padding-left: 0;
+	margin-top: 5px;
+	margin-left: 20px;
+}
+header h1, header nav{
+	display: inline-block;
+	vertical-align: top;
+}
+header li{
+	list-style: none;
+	display: inline-block;
+	border: 1px solid gray;
+	padding: 5px 20px;
+	border-radius: 5px;
+	background-image: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,255,255,0.4) 100%);
+	background-color: gray; 
+}
+header li a{
+	text-decoration: none;
+	color: black;
+}
+h1{
+	margin-top: 0;
+	-webkit-transition: font-size 2s;
+}
+h2{
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+#slide{
+	padding-top: 100px;
+	background: #d9d9d9;
+	min-height: 300px;
+}
+#servicios{
+	background: #808080;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+#servicios li{
+	cursor: pointer;
+	list-style: none;
+	width: 200px;
+	height: 200px;
+	background: #e0e0e0;
+	display: inline-block;
+	margin: 10px;
+	-webkit-transition: -webkit-transform 1s;
+}
+#servicios li:hover{
+	-webkit-transform: scale(0.9);
+}
+
+#servicios ul{
+	padding-left: 0;
+	width: 700px;
+	margin: 10px auto;
+}
+#contenido{
+	background: white;
+	padding: 20px 0;
+}
+#contenido img, #contenido p{
+	display: inline-block;
+	vertical-align: middle;
+}
+#contenido p{
+	width: 50%;
+	max-width: 500px;
+}
+#redes{
+	position: fixed;
+	right: 0;
+	top: 100px;
+	width: 80px;
+	height: 200px;
+	background: #c0c0c0;
+	border-radius: 10px 0px 0px 10px;
+}
+#redes ul{
+	list-style: none;
+	padding-left: 5px;
+
+}
+#redes li{
+	width: 50px;
+	height: 50px;
+	margin: 10px;
+	border-radius: 25px;
+	background-position: center;
+	background-repeat: no-repeat;
+	cursor: pointer;
+	-webkit-transition: -webkit-transform 1s;
+}
+#redes li:hover{
+	-webkit-transform: rotate(360deg);
+}
+#facebook{
+	background: url(../img/face.png),-webkit-radial-gradient(center, ellipse cover, rgba(30,142,255,1) 0%,rgba(3,78,191,1) 100%);
+	background-size: 80%, 100%;
+}
+#facebook:hover{
+	background: url(../img/face.png) no-repeat center black;
+	background-size: 80%;
+}
+#twitter{
+	background: url(../img/twitter.png),-webkit-radial-gradient(center, ellipse cover, rgba(173,214,255,1) 0%,rgba(96,171,248,1) 44%,rgba(89,129,193,1) 100%);
+	background-size: 60%, 100%;
+}
+#twitter:hover{
+	background: url(../img/twitter.png) no-repeat center black;
+	background-size: 60%;
+}
+#youtube{
+	background: url(../img/youtube.png),-webkit-radial-gradient(center, ellipse cover, rgba(255,76,76,1) 0%,rgba(178,3,3,1) 100%);
+	background-size: 60%, 100%;
+}
+#youtube:hover{
+	background: url(../img/youtube.png) no-repeat center black;
+	background-size: 60%;
+}
+
+@media screen and (max-width: 980px){
+	#redes{
+		display: none;
+	}
+}
+
+
+@media screen and (max-width: 720px){
+	#servicios ul{
+		width: 100%;
+	}
+	h1{
+		font-size: 15px;
+	}
+	
+}
+@media screen and (max-width: 480px){
+	header li{
+		display: block;
+		width: 100%;
+		padding: 5px 0px;
+		margin-bottom: 5px;
+	}
+	header ul{
+		width: 100%;
+		margin: 0;
+	}
+	nav{
+		width: 100%;
+	}
+	
+}
+
+
+
+
+
+
+
+

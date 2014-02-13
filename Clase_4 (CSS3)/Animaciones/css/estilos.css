@@ -1,0 +1,43 @@
+@-webkit-keyframes miPrimeraAnimacion{
+	0%{
+		top: 0px;
+		left: 0px;
+		background-color: red;
+		-webkit-transform: rotate(0deg);
+	}
+	25%{
+		top:0;
+		left: 300px;
+		background-color: blue;
+		-webkit-transform: rotate(90deg);
+	}
+	50%{
+		top: 200px;
+		left: 300px;
+		background-color: green;
+		-webkit-transform: rotate(0deg);
+	}
+	75%{
+		top: 200px;
+		left: 0;
+		background-color: yellow;
+		-webkit-transform: rotate(-90deg);
+	}
+	100%{
+		top: 0px;
+		left: 0px;
+		background-color: red;
+		-webkit-transform: rotate(0deg);
+	}
+}
+.caja{
+	-webkit-animation: miPrimeraAnimacion 4s;
+	-webkit-animation-iteration-count: 1;
+	position: absolute;
+	background: red;
+	height: 50px;
+	width: 50px;
+	top: 0px;
+	left: 0px;
+
+}

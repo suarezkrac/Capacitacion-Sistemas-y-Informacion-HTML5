@@ -1,0 +1,44 @@
+body{
+	background: rgba(0,0,0,0.3);
+	font-family: "Verdana";
+	text-align: center;
+}
+#bloque h2{
+	color: white;
+	height: 40px;
+	font-weight: bold;
+	text-shadow: 0px 0px 5px rgba(0,0,0,0.4);
+	margin: 0;
+	padding: 0;
+}
+#bloque img, #bloque video{
+	width: 280px;
+}
+#bloque figure{
+	margin: 0;
+}
+#bloque article{
+	height: 40px;
+	cursor: pointer;
+	overflow: hidden;
+	-webkit-transition: height 2s;
+}
+#bloque article:hover{
+	height: 250px;
+}
+/* CON EL CLICK
+article:focus{
+	height: 250px;
+}
+*/
+#bloque{
+	width: 300px;
+	border: 2px solid white;
+	border-radius: 25px;
+	box-shadow: 0px 10px 15px rgba(0,0,0,0.5);
+	position: relative;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+}
