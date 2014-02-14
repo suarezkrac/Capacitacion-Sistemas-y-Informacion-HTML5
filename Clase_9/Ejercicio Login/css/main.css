@@ -67,6 +67,10 @@ button{
     -webkit-transition: -webkit-transform 1s;
     -webkit-transform: translateX(-1200px) !important;
 }
+.desplazar-derecha{
+    -webkit-transition: -webkit-transform 1s;
+    -webkit-transform: translateX(1200px) !important;
+}
 .principal{
     -webkit-transition: -webkit-transform 1s;
     -webkit-transform: translateX(0px);
@@ -82,6 +86,10 @@ button{
     z-index: 0;
     -webkit-transform: translateX(1200px);
 }
+.page_old{
+    z-index: 0;
+    -webkit-transform: translateX(-1200px);
+}
 
 #background_lightbox{
     background: -webkit-radial-gradient(center, ellipse cover, rgba(255,255,255,0.56) 0%,rgba(0,0,0,1) 100%);
@@ -92,6 +100,24 @@ button{
     z-index: 1;
     opacity: 0; 
     -webkit-transition: opacity 1s;
+}
+#container{
+    /* Agregue*/
+    background: url(../img/fondo1.jpg);
+    background-size: cover;
+    /*aqui*/
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+#home{
+    background: url(../img/screen.png) no-repeat;
+    background-position: center;
+    background-size: auto 100%;
+    width: 90%;
+    height: 400px;
+    margin: 0 auto;
 }
 #lightbox{
     -webkit-transition: opacity 1s;
@@ -117,10 +143,9 @@ button{
 #lightbox input{
     border-radius: 6px;
 }
-#main, #next_frame{
+#main, #next_frame, #back_frame{
     opacity: 1;
     position: absolute;
-    background: #ccc;
     width: 800px;
     height: 500px;
     left: 0;
@@ -128,17 +153,16 @@ button{
     margin-left: auto;
     margin-right: auto;
     top: 30px;
-    border-radius: 13px;
-    box-shadow: 10px 8px 30px gray;
+   /* border-radius: 13px;
+    box-shadow: 10px 8px 30px gray;*/
     text-align: center;
 }
-#next_frame{
+#next_frame, #back_frame{
     opacity: 1;
-    background: white;
-    border: 1px solid black;
+   /* border: 1px solid black;*/
 }
 
-#next{
+#next, #back{
     opacity: 0;
     width: 50px;
     height: 50px;
@@ -153,14 +177,29 @@ button{
     -webkit-transform: rotate(90deg);
     -webkit-transition: -webkit-transform 1s;
 }
+#back{
+    left: 10px;
+    right: 0;
+    -webkit-transform: rotate(-90deg);
+    -webkit-transition: -webkit-transform 1s;
+}
 #next:hover{    
     -webkit-transform: rotate(450deg);
 }
+#back:hover{    
+    -webkit-transform: rotate(-450deg);
+}
 
-#page1 img{
-    width: 130px;
+#page1{
+    background: -webkit-linear-gradient(top, rgba(152,190,222,1) 0%,rgba(222,239,255,1) 92%); 
+    border-radius: 25px;
+    padding: 10px;
+
+}
+.paginas img{
     float: left;
 }
+
 
 /* ==========================================================================
    Media Queries
