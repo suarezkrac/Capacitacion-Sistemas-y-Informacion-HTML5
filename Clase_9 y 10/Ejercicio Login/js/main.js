@@ -72,6 +72,7 @@ function animar_atras(){
 }
 
 function atras () {
+	console.log("Contador:"+contador);
 	if (contador<5){
 		$('#next').show();
 	};
