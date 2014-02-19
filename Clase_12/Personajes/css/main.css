@@ -59,8 +59,74 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+.personaje_1{
+    background: url(../img/personaje_1.png);
+    width: 200px;
+    height: 600px;
+    background-size: auto 100%;
+    position: relative;
+    display: inline-block;
+}
+#animacion{
+    width: 600px;
+    height: 500px;
+    position: relative;
+    top: 0;
+    display: inline-block;
+}
+#animacion iframe{
+    border: none;
+    width: 100%;
+    height: 100%;
+}
 
+.personaje_2{
+    background: url(../img/personaje_2.png);
+    width: 230px;
+    height: 570px;
+    background-size: auto 100%;
+    position: relative;
+    display: inline-block;
 
+}
+.contenido{
+    display: none;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    top: 10px;
+}
+#container{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background-color: #1B619B;
+    text-align: center;
+    color: white;
+}
+#inicio{
+    margin-top: 200px;
+
+}
+#inicio div>div{
+    display: inline-block;
+    width: 100px;
+    border-radius: 10px;
+    padding: 10px 20px;
+    background: white;
+    color: black;
+    cursor: pointer;
+}
+#inicio div>div:hover{
+    background: #f8f2e5;
+
+}
+#inicio h1{
+    font-size: 45px;
+
+}
 
 
 
