@@ -1,0 +1,258 @@
+/* This code is only meant for previewing your Reflow design. */
+.primaryContainer {
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 100%;
+    width: 100%;
+    background-image:-webkit-linear-gradient(270deg,rgb(217,212,147) 0%,rgb(255,255,255) 100%);
+    background-position: 0% 0%;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-size: auto;
+}
+
+#text {
+    float: none;
+    font-size: 5em;
+    width: 74.40032%;
+    height: auto;
+    text-align: center;
+    font-weight: bold;
+    line-height: 1em;
+    margin-left: auto;
+    margin-top: 30px;
+    clear: none;
+    min-height: 0px;
+    font-family: aclonica;
+    color: rgb(0, 255, 15);
+    letter-spacing: 0em;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-shadow: rgb(0, 0, 0) 8px 5px 3px;
+    margin-right: auto;
+}
+
+#input {
+    float: left;
+    height: 66px;
+    font-size: 2em;
+    margin-left: 5.718314%;
+    margin-top: 16px;
+    clear: none;
+    width: 24.956961%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-image:-webkit-linear-gradient(270deg,rgba(255,255,255,0.901961) 0%,rgba(0,0,0,0.541176) 100%);
+    background-position: 0% 0%;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-size: auto;
+    background-color: rgb(0, 255, 191);
+    color: rgb(255, 255, 255);
+    margin-right: 0%;
+    display: block;
+}
+
+#input1 {
+    float: left;
+    height: 66px;
+    font-size: 2em;
+    margin-left: 7.652122%;
+    margin-top: 16px;
+    clear: none;
+    width: 24.956961%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    color: rgb(255, 255, 255);
+    background-image:-webkit-linear-gradient(270deg,rgba(255,255,255,0.901961) 0%,rgba(0,0,0,0.541176) 100%);
+    background-position: 0% 0%;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-size: auto;
+    background-color: rgb(255, 0, 0);
+    margin-right: 0%;
+    display: block;
+}
+
+#input2 {
+    float: left;
+    height: 66px;
+    font-size: 2em;
+    margin-left: 7.177204%;
+    margin-top: 16px;
+    clear: none;
+    width: 24.956961%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    color: rgb(255, 255, 255);
+    margin-right: 0%;
+    background-image:-webkit-linear-gradient(270deg,rgba(255,255,255,0.901961) 0%,rgba(0,0,0,0.541176) 100%);
+    background-position: 0% 0%;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-size: auto;
+    background-color: rgb(0, 39, 255);
+}
+
+#box {
+    float: left;
+    height: 94px;
+    margin-left: 12.786514%;
+    margin-top: 27px;
+    clear: none;
+    width: 74.826759%;
+}
+
+#image {
+    float: left;
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    margin-left: 14.666622%;
+    margin-top: 51px;
+    clear: both;
+    color: rgb(0, 0, 0);
+}
+
+#text1 {
+    float: left;
+    font-size: 2em;
+    width: 48.400853%;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1em;
+    margin-left: 1.802372%;
+    margin-top: 51px;
+    clear: none;
+    min-height: 332px;
+}
+
+@media only screen and (max-width: 980px) {
+    #text1 {
+        margin-top: 41.9375px;
+        margin-left: 15.864158%;
+        clear: both;
+        width: 70.548469%;
+        height: auto;
+        min-height: 667px;
+        text-align: center;
+    }
+
+    #text {
+        width: 74.398916%;
+    }
+
+    #box {
+        width: 74.826212%;
+        height: 94px;
+    }
+
+    #image {
+        margin-top: 49px;
+        margin-left: 33.314732%;
+        clear: both;
+        height: auto;
+        width: auto;
+        max-width: 32.528699%;
+    }
+}
+
+@media only screen and (max-width: 740px) {
+    #input2 {
+        width: 29.257556%;
+        font-size: 1.9em;
+        height: 66px;
+        margin-top: 16px;
+        margin-left: 2.607444%;
+        clear: none;
+    }
+
+    #input1 {
+        width: 29.257556%;
+        font-size: 1.9em;
+        margin-top: 16px;
+        margin-left: 3.35525%;
+        clear: none;
+        height: 66px;
+    }
+
+    #input {
+        width: 29.257556%;
+        font-size: 1.9em;
+        height: 66px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    #image {
+        margin-top: 26px;
+        margin-left: auto;
+        clear: none;
+        margin-right: auto;
+        float: none;
+        display: none;
+    }
+
+    #text {
+        width: 74.398226%;
+        font-size: 3.1em;
+    }
+
+    #box {
+        width: 76.043784%;
+        height: 273px;
+        margin-top: 18px;
+        margin-left: auto;
+        clear: none;
+        margin-right: auto;
+        float: none;
+    }
+
+    #text1 {
+        margin-top: 37.875px;
+        margin-left: auto;
+        clear: none;
+        width: 70.546875%;
+        margin-right: auto;
+        float: none;
+    }
+
+    #input2 {
+        margin-top: 20px;
+        margin-left: auto;
+        clear: none;
+        width: 59.95%;
+        height: 66px;
+        margin-right: auto;
+        float: none;
+    }
+
+    #input {
+        width: 59.95%;
+        height: 66px;
+        margin-top: 16px;
+        margin-left: auto;
+        clear: none;
+        margin-right: auto;
+        float: none;
+    }
+
+    #input1 {
+        width: 59.95%;
+        height: 66px;
+        margin-top: 12px;
+        margin-left: auto;
+        clear: none;
+        margin-right: auto;
+        float: none;
+    }
+}
+
