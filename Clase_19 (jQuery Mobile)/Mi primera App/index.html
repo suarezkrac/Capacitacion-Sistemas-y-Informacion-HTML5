@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+
+        <link rel="stylesheet" href="css/normalize.min.css">
+        <link rel="stylesheet" href="css/jquery.mobile-1.4.1.min">
+        <link rel="stylesheet" href="css/jquery.mobile.structure-1.4.1.min.css">
+
+        <link rel="stylesheet" href="css/themes/mytheme.min.css">
+        <link rel="stylesheet" href="css/themes/jquery.mobile.icons.min.css">
+        
+        <link rel="stylesheet" href="css/main.css">
+        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+    </head>
+    <body>
+        <div class="pagina" data-role="page" id="pagina1" data-theme="c">
+            <div class="header" data-role="header">
+                <h1>Mi Primera app</h1>
+            </div>
+            <div class="contenido" data-role="content" role="main">
+                <img src="img/Logo.png">
+                <div class="input_texto">
+                    <label>Usuario:</label>
+                    <input id="user" type="text" class="ui-input-text ui-corner-all">
+                </div>
+                <div class="ultimo_input input_texto">
+                    <label>Contraseña:</label>
+                    <input id="pass" type="password" class="ui-input-text ui-corner-all">
+                </div>
+                <a href="#pagina2" data-transition="slide" class="ui-btn ui-btn-a ui-shadow ui-corner-all">Ingresar</a>
+            </div>
+        </div>
+        <div class="pagina" data-role="page" id="pagina2" data-theme="c">
+            <div class="header" data-role="header">
+                <h1>Mi Primera App</h1>
+                <a href="#pagina1" class="ui-btn-right ui-btn-corner-all ui-btn ui-btn-icon-notext ui-shadow ui-icon-delete"></a>
+            </div>
+            <div class="contenido" data-role="content">
+                <ul data-role="listview" data-inset="true" class="ui-listview ui-listview-inset ui-corner-all ui-shadow">
+                    <li data-role="list-divider" role="heading">Menu Principal</li>
+                    <li class="item">
+                        <a class="ui-btn-a ui-btn ui-btn-icon-right ui-icon-carat-r" data-transition="slide" href="#pagina3">Servicios</a>
+                    </li>
+                    <li class="item">
+                        <a class="ui-btn-a ui-btn ui-btn-icon-right ui-icon-carat-r" href="#pagina3">Portafolio</a>
+                    </li>
+                    <li class="item">
+                        <a class="ui-btn-a ui-btn ui-btn-icon-right ui-icon-carat-r" href="#pagina3">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="pagina" data-role="page" id="pagina3" data-theme="c">
+            <div class="header" data-role="header">
+                <h1>Mi Primera App</h1>
+                <a href="#pagina2" data-transition="slide" data-direction="reverse" class="ui-btn-left ui-btn-corner-all ui-btn ui-btn-icon-notext ui-shadow ui-icon-home"></a>
+            </div>
+            <div class="contenido" data-role="content">
+                <div class="ui-grid-a"><!--2 Columnas-->
+                    <!--Fila 1-->
+                    <div class="ui-block-a">
+                        <div id="servicio_1" class="servicios-icon"></div>
+                    </div>
+                    <div class="ui-block-b">
+                        Camaras de Seguridad
+                    </div>
+
+                    <!--Fila 2-->
+                    <div class="ui-block-a">
+                        <div id="servicio_2" class="servicios-icon"></div>
+                    </div>
+                    <div class="ui-block-b">
+                        Seguridad Privada
+                    </div>
+
+                    <!--Fila 3-->
+                    <div class="ui-block-a">
+                        <div id="servicio_3" class="servicios-icon"></div>
+                    </div>
+                    <div class="ui-block-b">
+                        Transporte de Valores
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.1.min.js"><\/script>')</script>
+        <script src="js/vendor/jquery.mobile-1.4.1.min.js"></script>
+        <!--<script src="js/vendor/jquery.mobile-1.4.1.min.map"></script>-->
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+
+        <!--<script>
+            var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
+            (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+            g.src='//www.google-analytics.com/ga.js';
+            s.parentNode.insertBefore(g,s)}(document,'script'));
+        </script>-->
+    </body>
+</html>

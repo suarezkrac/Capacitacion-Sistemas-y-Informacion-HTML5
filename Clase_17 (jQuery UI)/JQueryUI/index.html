@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+
+        <link rel="stylesheet" href="css/normalize.min.css">
+        <link rel="stylesheet" href="css/main.css">
+
+        <link rel="stylesheet" href="css/sunny/jquery-ui-1.10.4.custom.min.css">
+
+        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+    </head>
+    <body>
+        <h2>Resizable</h2>
+        <div id="box_1" class="boxes"></div>
+
+        <h2>Selectable y Sortable</h2>
+        <div>
+            <ul id="ciudades">
+                <li>Bogota</li>
+                <li>Medellin</li>
+                <li>Cali</li>
+                <li>Cartagena</li>
+            </ul>
+            <ul id="paises">
+                <li>Colombia</li>
+                <li>Brazil</li>
+                <li>Argentina</li>
+                <li>Venezuela</li>
+            </ul>
+        </div>
+
+        <h2>Acordeon</h2>
+        <div id="acordeon">
+            <h3>Seccion 1</h3>
+            <div>Contenido de la seccion 1. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</div>
+
+            <h3>Seccion 2</h3>
+            <div>Contenido de la seccion 2. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</div> 
+
+            <h3>Seccion 3</h3>
+            <div>Contenido de la seccion 3. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</div>
+        </div>
+
+        <h2>Autocompletado</h2>
+        <input type="text" id="nombres">
+
+        <h2>Botones</h2>
+        <input type="button" class="boton_ui" value="Boton Input">
+        <a href="#" class="boton_ui">Boton Enlace</a>
+        <button class="boton_ui">Boton HTML5</button>
+
+        <h2>Calendario</h2>
+        <input type="text" id="calendario">
+
+        <h2>Dialogo o Ventana Emergente</h2>
+        <div id="dialogo">Cuidado!!, Recuerde registrarse antes de usuario nuestro aplicativo.</div>
+
+        <h2>Pestañas o Tabs</h2>
+        <div id="pestana">
+            <ul>
+                <li><a href="#pestana1">Pestaña 1</a></li>
+                <li><a href="#pestana2">Pestaña 2</a></li>
+                <li><a href="#pestana3">Pestaña 3</a></li>
+            </ul>
+            <div id="pestana1">Contenido de la seccion 1. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</div>  
+            
+            <div id="pestana2">Contenido de la seccion 2. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</div> 
+
+             <div id="pestana3">Contenido de la seccion 3. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</div>
+        </div>
+
+        <h2>Tooltip</h2>
+        <div>Contenido de la <a href="#" class="tool" title="Ayuda del Tooltip">seccion 3.</a> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</div>
+        <input class="tool" id="edad" title="Digita tu edad">
+        <a class="tool" href="#" title="Ayuda Tooltip">
+            <img width="20" src="img/help.jpg">
+        </a>
+
+        <h2>Efectos</h2>
+        <div id="box_2" class="boxes"></div>
+        <select id="efectos">
+            <option value="blind">blind</option>
+            <option value="bounce">bounce</option>
+            <option value="clip">clip</option>
+            <option value="drop">drop</option>
+            <option value="explode">explode</option>
+            <option value="fade">fade</option>
+            <option value="fold">fold</option>
+            <option value="highlight">highlight</option>
+            <option value="puff">puff</option>
+            <option value="pulsate">pulsate</option>
+            <option value="scale">scale</option>
+            <option value="shake">shake</option>
+            <option value="size">size</option>
+            <option value="slide">slide</option>
+            <option value="transfer">transfer</option>
+        </select>
+        <button id="aplicar">Aplicar Efecto</button>
+
+
+
+
+
+        <br><br><br><br><br><br><br>
+        
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+
+
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.1.min.js"><\/script>')</script>
+        <script type="text/javascript" src="js/vendor/jquery-ui-1.10.4.custom.min.js"></script>
+
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+
+       <!--- <script>
+            var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
+            (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+            g.src='//www.google-analytics.com/ga.js';
+            s.parentNode.insertBefore(g,s)}(document,'script'));
+        </script>-->
+    </body>
+</html>
