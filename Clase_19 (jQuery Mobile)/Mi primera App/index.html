@@ -54,7 +54,7 @@
                         <a class="ui-btn-a ui-btn ui-btn-icon-right ui-icon-carat-r" href="#pagina3">Portafolio</a>
                     </li>
                     <li class="item">
-                        <a class="ui-btn-a ui-btn ui-btn-icon-right ui-icon-carat-r" href="#pagina3">Contacto</a>
+                        <a class="ui-btn-a ui-btn ui-btn-icon-right ui-icon-carat-r" data-transition="slide" href="#pagina4">Contacto</a>
                     </li>
                 </ul>
             </div>
@@ -92,8 +92,27 @@
                 </div>      
             </div>
         </div>
-
-
+        <div class="pagina" data-role="page" id="pagina4" data-theme="c">
+            <div class="header" data-role="header">
+                <h1>Contacto</h1>
+                <a href="#pagina2" data-transition="slide" data-direction="reverse" class="ui-btn-left ui-btn-corner-all ui-btn ui-btn-icon-notext ui-shadow ui-icon-home"></a>
+            </div>
+            <div class="contenido" data-role="content">
+                <div class="input_texto">
+                    <label>Nombre:</label>
+                    <input id="name" type="text" class="ui-input-text ui-corner-all">
+                </div>
+                <div class="input_texto">
+                    <label>Correo:</label>
+                    <input id="mail" type="text" class="ui-input-text ui-corner-all">
+                </div>
+                <div class="ultimo_input input_texto">
+                    <label>Mensaje:</label>
+                    <textarea id="mensaje"  class="ui-input-text ui-body-c ui-corner-all ui-shadow-inset"></textarea>
+                </div>
+                <a  href="#pagina2" data-transition="slide" class="ui-btn ui-btn-a ui-shadow ui-corner-all">Enviar</a>
+            </div>
+        </div>
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.1.min.js"><\/script>')</script>
         <script src="js/vendor/jquery.mobile-1.4.1.min.js"></script>

@@ -116,7 +116,9 @@ box-shadow: 2px 2px 5px gray;
 #servicio_3{
     background-image: url(../img/servicio-3.png);
 }
-
+#mensaje{
+    min-height: 200px;
+}
 
 
 
