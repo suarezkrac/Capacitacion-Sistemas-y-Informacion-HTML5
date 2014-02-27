@@ -11,6 +11,7 @@
         <meta name="viewport" content="width=device-width">
 
         <link rel="stylesheet" href="css/normalize.min.css">
+        <link rel="stylesheet" href="css/animate.css">
         <link rel="stylesheet" href="css/jquery.mobile-1.4.1.min">
         <link rel="stylesheet" href="css/jquery.mobile.structure-1.4.1.min.css">
 
@@ -35,7 +36,7 @@
                     <label>Contraseña:</label>
                     <input id="pass" type="password" class="ui-input-text ui-corner-all">
                 </div>
-                <a href="#pagina2" data-transition="slide" class="ui-btn ui-btn-a ui-shadow ui-corner-all">Ingresar</a>
+                <a  href="#pagina2" data-transition="slide" class="ui-btn ui-btn-a ui-shadow ui-corner-all">Ingresar</a>
             </div>
         </div>
         <div class="pagina" data-role="page" id="pagina2" data-theme="c">
@@ -47,7 +48,7 @@
                 <ul data-role="listview" data-inset="true" class="ui-listview ui-listview-inset ui-corner-all ui-shadow">
                     <li data-role="list-divider" role="heading">Menu Principal</li>
                     <li class="item">
-                        <a class="ui-btn-a ui-btn ui-btn-icon-right ui-icon-carat-r" data-transition="slide" href="#pagina3">Servicios</a>
+                        <a id="ingresar_servicio" class="ui-btn-a ui-btn ui-btn-icon-right ui-icon-carat-r" data-transition="slide" href="#pagina3">Servicios</a>
                     </li>
                     <li class="item">
                         <a class="ui-btn-a ui-btn ui-btn-icon-right ui-icon-carat-r" href="#pagina3">Portafolio</a>
@@ -88,9 +89,8 @@
                     <div class="ui-block-b">
                         Transporte de Valores
                     </div>
-                </div>
+                </div>      
             </div>
-
         </div>
 
 

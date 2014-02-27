@@ -90,17 +90,31 @@ textarea {
 margin-bottom: 20px;
 }
 .servicios-icon{
-
-
+cursor: pointer;
+width: 160px;
+height: 160px;
+border-radius: 80px;
+border: 1px solid gray;
+margin: 10px auto;
+background-color: white;
+-webkit-transition: -webkit-transform 1s !important;
+background-size: cover;
+box-shadow: 2px 2px 5px gray;
 }
-#servicio-1{
-
+.servicios-icon:hover{
+-webkit-transform: scale(1.1) !important;
 }
-#servicio-2{
-    
+.ui-block-b{
+    padding-top: 80px;
 }
-#servicio-3{
-    
+#servicio_1{
+ background-image: url(../img/servicio-1.png);
+}
+#servicio_2{
+ background-image: url(../img/servicio-2.png);   
+}
+#servicio_3{
+    background-image: url(../img/servicio-3.png);
 }
 
 
